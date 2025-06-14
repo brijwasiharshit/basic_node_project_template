@@ -1,7 +1,5 @@
-const dotenv = require('dotenv');
-
-dotenv.config();
+const ServerConfig = require("./server-config");
 
 module.exports = {
-    PORT: process.env.PORT
+    ServerConfig
 }
